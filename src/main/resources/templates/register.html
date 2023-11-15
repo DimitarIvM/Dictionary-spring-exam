@@ -17,7 +17,7 @@
             </div>
 
         <!--        Example: Render errors messages with th:errorclass "is-invalid" and class "invalid-feedback" - you can make it differently. -->
-                <input th:field="*{username}" th:errorclass="'is-invalid alert-danger'" type="text" class="form-control"
+                <input th:field="*{}" th:errorclass="'is-invalid alert-danger'" type="text" class="form-control"
                        id="username" name="username"/>
                 <small th:errors="*{username}"
                        th:if="${#fields.hasErrors('username')}" class="invalid-feedback text-danger">Username error message</small>
